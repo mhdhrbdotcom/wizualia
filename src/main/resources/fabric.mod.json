@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "wizualia",
+  "version": "${version}",
+  "name": "Wizualia",
+  "description": "Polskie, estetyczne ClickGUI z modulami wizualnymi. Otwierane klawiszem B.",
+  "authors": ["you"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": { "client": ["com.wizualia.WizualiaMod"] },
+  "mixins": ["wizualia.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}

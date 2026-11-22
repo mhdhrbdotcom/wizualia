@@ -1,0 +1,7 @@
+{
+  "required": true,
+  "package": "com.wizualia.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": ["GameRendererMixin", "InGameHudMixin", "SimpleOptionAccessor", "HeldItemRendererMixin"],
+  "injectors": { "defaultRequire": 1 }
+}

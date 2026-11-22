@@ -1,0 +1,7 @@
+Budowanie na swoim komputerze (potrzebny tylko Java 21 - JDK, np. Temurin 21):
+
+Windows (cmd/PowerShell w tym folderze):   gradlew.bat build
+Linux/Mac:                                  ./gradlew build
+
+Gotowy plik: build/libs/wizualia-1.0.0.jar  (NIE ten z "-sources")
+Wrzuc go do .minecraft/mods razem z Fabric API 0.119.2+1.21.4 i Fabric Loaderem.
